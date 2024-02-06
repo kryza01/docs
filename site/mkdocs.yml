@@ -1,0 +1,112 @@
+site_name: KRYZA Diamond Docs
+site_description: KRYZA Diamond Technology Documentation
+site_author: KRYZA Diamond Community
+
+site_url: https://docs.kryzascan.com
+use_directory_urls: false
+theme:
+  name: material
+
+repo_name: shree
+repo_url:https://github.com/githubusername/githubrepo
+
+nav:
+  - Home: index.md
+  - KRYZA Diamond:
+    - Introduction: smart-chain/guides/nc-intro.md
+    - Concepts:
+      - Consensus: smart-chain/guides/concepts/consensus.md
+      - Comparison: smart-chain/guides/general.md
+      - Genesis File: smart-chain/guides/concepts/genesis.md
+      - System Contract: smart-chain/guides/concepts/system-contract.md
+      - Governance: smart-chain/guides/concepts/nc-gov.md
+    - Ecosystem:https://github.com/githubusername/githubrepo/nc-ecosystem
+    - Gnosis: smart-chain/developer/gnosis.md
+    - Staking:
+      - Validator:
+        - Overview: smart-chain/validator/overview.md
+        - Validator Guides: smart-chain/validator/guideline.md
+        - Validator Security: smart-chain/validator/security.md
+        - Chaindata Snapshot: smart-chain/developer/snapshot.md       
+        - Testnet : smart-chain/validator/testnet.md
+        - Validator FAQ: faq/nc/val.md
+      - Delegator Guide: smart-chain/delegator/del-guide.md
+    - Cross Chain Apps: smart-chain/guides/cross-chain.md
+    - KRYZA Diamond Mainnet Explorer: https://kryzascan.com/
+    - KRYZA Diamond Testnet Explorer: https://testnet-explorer.kryzascan.com/
+    - Wallet: smart-chain/wallet.md
+  - KRD  Developers:
+    - General:
+      - Create Wallet: smart-chain/developer/create-wallet.md
+      - Smart Contract: https://solidity.readthedocs.io/en/v0.7.1/
+      - Remix : https://remix.ethereum.org/
+      - Web3JS: https://web3js.readthedocs.io/en/v1.2.11/
+      - Truffle: https://www.trufflesuite.com/docs/teams/quickstart
+    - Ecosystem:https://github.com/githubusername/githubrepo-develop-ecosystem
+    - Deploy:
+      - Remix: smart-chain/developer/deploy/remix.md
+      - Truffle: smart-chain/developer/deploy/truffle.md
+      - Truffle Verify: smart-chain/developer/deploy/truffle-verify.md
+      - HardHat: smart-chain/developer/deploy/hardhat.md
+      - HardHat Verify: smart-chain/developer/deploy/hardhat-verify.md
+      - Verify Proxy Contract: smart-chain/developer/upgrade/verify-proxy.md
+    - Tools:
+      - Faucet: https://faucet.kryzascan.com
+      - Gas Price: https://kryzascan.com/chart/gasprice
+      - Wallet Provider for DApps: smart-chain/wallet/arkane-developer.md
+    - KRC20 Tokens:
+      - Introduction: smart-chain/developer/KRC20.md
+      - Issue Token: smart-chain/developer/issue-KRC20.md
+      - Bind Token:
+        - Introduction: smart-chain/developer/bind/tokens-cross-chain.md
+        - Bind Token: smart-chain/developer/bind/bind-tokens.md
+        - Mirror Token: smart-chain/developer/bind/mirror.md
+        - Sync Supply: smart-chain/developer/bind/sync.md
+      - Cross-chain Transfer: smart-chain/developer/cross-chain-transfer.md
+      - Bind Token Tool:https://github.com/githubusername/githubrepo/token-bind-tool
+    - Blockchain Details:
+      - KRYZA Diamond Fullnode: smart-chain/developer/fullnode.md
+      - Chaindata Snapshot: smart-chain/developer/snapshot.md
+      - KRD  Relayer: smart-chain/developer/nc-relayer.md
+      - RPC: smart-chain/developer/rpc.md
+    - Oracles:
+      - Band Protocol Integration: smart-chain/developer/oracle/band.md
+      - Chainlink Protocol Integration: smart-chain/developer/oracle/link.md
+      - Chainlink Protocol VRF: https://docs.chain.link/docs/chainlink-vrf
+    - Tutorial:
+      - Deploy NFT:  smart-chain/developer/KRC721.md
+      - Verify Contract on kryzascan.com: smart-chain/developer/deploy/verify.md
+      - Local KRD  Network: smart-chain/developer/deploy/local.md
+      - Proxy Contract: smart-chain/developer/upgrade/proxy.md
+    - BUIDL Program: https://www.kryzascan.com/en/blog/421499824684900972/Bridging-DeFi-and-CeFi-Introducing-a-$100M-Support-Fund-for-DeFi-Projects-on-KRD-Smart-Chain
+  - Wallets:
+    - KRYZA Diamond Wallet Support: smart-chain/wallet.md
+    - KRYZA Diamond Wallet Tutorial:
+      - How to create a KRD  wallet: smart-chain/wallet/arkane.md
+      - Math Wallet User Guide: smart-chain/wallet/math-resource.md
+      - Staking with extension wallet: smart-chain/wallet/staking.md
+      - How to install KRD Extension Wallet Manually: smart-chain/wallet/manual.md
+      - How to use ezDeFi Wallet for KRYZA Diamond: smart-chain/wallet/ezdefi.md
+  - KRYZA Diamond Explorer: https://kryzascan.com
+  - KRYZA Diamond Forum: https://community.kryzascan.com/
+  - KRYZA Diamond Faucet: https://faucet.kryzascan.com
+  - The KRYZA Diamond Developer Group : https://t.me/kryzaglobal
+  - The KRYZA Diamond Telegram Group : https://t.me/kryzaglobal
+  - Twitter: https://twitter.com/KryzaToken
+  - Telegram Announcement Channel English: https://t.me/kryzaglobal
+  - FAQ:
+    - KRYZA Diamond FAQ:
+      - General:
+        - Info: faq/nc/general.md
+        - KRYZA Diamond: faq/nc/KRD.md
+        - Ecosystem: faq/nc/eco.md
+      - Token:
+        - Intro: faq/nc/token.md
+        - BEPs: faq/nc/bep.md
+      - Staking:
+        - Validator: faq/nc/val.md
+        - Delegator: faq/nc/del.md
+        - Staking parameters: smart-chain/validator/Parameters.md
+      - Crosschain: faq/nc/cross.md
+    - More Help: resources.md
+    - Contributing: CONTRIBUTING.md
